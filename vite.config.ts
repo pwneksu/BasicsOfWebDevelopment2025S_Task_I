@@ -12,6 +12,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         catalog: resolve(__dirname, 'catalog.html'),
+        order: resolve(__dirname, 'order.html'),
+        thanks: resolve(__dirname, 'thanks.html'),
       },
     },
   },
