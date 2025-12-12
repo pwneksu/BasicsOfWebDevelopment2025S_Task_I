@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CycleCity - Bike Rentals</title>
-    <link href="/src/style.css" rel="stylesheet">
+    <link href="src/style.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,10 +29,11 @@
             <div class="flex justify-between items-center">
                 <h1 class="text-2xl font-bold">CycleCity</h1>
                 <div class="space-x-6">
-                    <a href="/" class="hover:underline">Home</a>
-                    <a href="/#about" class="hover:underline">About</a>
-                    <a href="/catalog.html" class="hover:underline">Catalog</a>
-                    <a href="/#contact" class="hover:underline">Contact</a>
+                    <a href="index.html" class="hover:underline">Home</a>
+                    <a href="index.html#about" class="hover:underline">About</a>
+                    <a href="catalog.html" class="hover:underline">Catalog</a>
+                    <a href="order.html" class="hover:underline">Order</a>
+                    <a href="index.html#contact" class="hover:underline">Contact</a>
                 </div>
             </div>
         </nav>
@@ -42,7 +43,7 @@
         <!-- Product Highlights -->
         <section id="bikes" class="relative isolate overflow-hidden py-12">
 
-            <img src="/assets/example.webp" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover opacity-90 blur-sm">
+            <img src="assets/example.webp" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover opacity-90 blur-sm">
 
             <div class="absolute inset-0 -z-10 bg-gradient-to-t from-white via-white/80 to-transparent"></div>
 
@@ -58,6 +59,9 @@
                                 istuin ja pysty ajoasento.
                             </p>
                             <p class="text-blue-600 font-bold">€10/päivä</p>
+                            <a href="order.html?bike=city-cruiser" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-150 ease-in-out">
+                                Vuokraa
+                            </a>
                         </div>
                     </article>
 
@@ -71,6 +75,9 @@
                             <p class="text-gray-600 mb-4">Sähköavustus mäkiä varten. Aja pidemmälle vähemmällä vaivalla.
                             </p>
                             <p class="text-blue-600 font-bold">€25/päivä</p>
+                            <a href="order.html?bike=e-bike-pro" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-150 ease-in-out">
+                                Vuokraa
+                            </a>
                         </div>
                     </article>
 
@@ -83,6 +90,9 @@
                             <h3 class="text-xl font-semibold mb-2">Trail Blazer</h3>
                             <p class="text-gray-600 mb-4">Valmiina seikkailuun. Kestävä runko ja maastorenkaat.</p>
                             <p class="text-blue-600 font-bold">€18/päivä</p>
+                            <a href="order.html?bike=trail-blazer" class="mt-4 block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-150 ease-in-out">
+                                Vuokraa
+                            </a>
                         </div>
                     </article>
 

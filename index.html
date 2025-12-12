@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CycleCity - Bike Rentals</title>
-  <link href="/src/style.css" rel="stylesheet">
+  <link href="src/style.css" rel="stylesheet">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -29,9 +29,10 @@
       <div class="flex justify-between items-center">
         <h1 class="text-2xl font-bold">CycleCity</h1>
         <div class="space-x-6">
-          <a href="/" class="hover:underline">Home</a>
+          <a href="index.html" class="hover:underline">Home</a>
           <a href="#about" class="hover:underline">About</a>
-          <a href="/catalog.html" class="hover:underline">Catalog</a>
+          <a href="catalog.html" class="hover:underline">Catalog</a>
+          <a href="order.html" class="hover:underline">Order</a>
           <a href="#contact" class="hover:underline">Contact</a>
         </div>
       </div>
@@ -44,9 +45,14 @@
       <div class="text-center px-4">
         <h2 class="text-5xl font-bold mb-4">Ride the City</h2>
         <p class="text-xl mb-6">Edullinen polkupyöränvuokraus urbaanin viidakon tutkimiseen</p>
-        <a href="/catalog.html" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded inline-block text-lg">
-          Vuokraa heti
-        </a>
+        <div class="flex justify-center space-x-4">
+          <a href="catalog.html" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded inline-block text-lg">
+            Katso pyörät
+          </a>
+          <a href="order.html" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded inline-block text-lg">
+            Tee varaus
+          </a>
+        </div>
       </div>
     </section>
 
